@@ -60,7 +60,7 @@ public:
         if(mode == 0){
             font(U"Push Game Start!").draw(15 , Vec2{340,400}, ColorF{ 0.2 });
             X = 400.0; Y = 500.0; //ボール初期位置
-            degree = 90;
+            degree = 270;
             Speed = 0.0;
             Under_Bar();
         }else{
