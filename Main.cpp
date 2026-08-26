@@ -45,9 +45,9 @@ public:
         }
         Rect{mouse_pos.x - (Under_Bar_Size.x / 2) , screensize.y - 50 , Under_Bar_Size.x , Under_Bar_Size.y}.draw(Palette::Blue);
         Circle{X , Y , Ball_Size}.draw(Palette::Skyblue);
-        Print << B_X << ',' << B_Y;
-        Print << degree;
-        Print << clear_count;
+        //Print << B_X << ',' << B_Y;
+        //Print << degree;
+        //Print << clear_count;
     }
     
     int Update(){
@@ -64,7 +64,7 @@ public:
             Speed = 0.0;
             Under_Bar();
         }else{
-            Speed = 5.0;
+            Speed = 10.0;
             double radian = degree * M_PI /180;
             Y += (sin(radian) * Speed);
             X += (cos(radian) * Speed);
