@@ -1,0 +1,28 @@
+# ==========================================
+# C++ / Visual Studio Code / Emscripten
+# ==========================================
+
+# ビルド生成物・中間ファイル
+/App/*.js
+/App/*.wasm
+/App/*.data
+/App/*.html
+!/App/index.html
+*.o
+*.obj
+*.a
+*.lib
+
+# VS Code 固有の設定ファイル（共有したくない場合）
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+*.code-workspace
+
+# OS / システムが自動生成する隠しファイル
+.DS_Store
+Thumbs.db
+
+# Live Server などの一時ログ
+.history/
