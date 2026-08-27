@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    display:flex;
+    padding:5px;
+    gap:10px;
+}
+
+button{
+    width:auto;
+    height: 30px;
+    font-family: sans-serif;
+    font-size:20px;
+    color:aliceblue;
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(26, 24, 27);
+    align-items:center;
+    box-sizing:border-box;
+    border:2px solid rgb(98, 81, 106);
+}
+button:hover{
+    background-color: rgb(118, 118, 129);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(43, 47, 51);
+}
